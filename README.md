@@ -28,17 +28,34 @@ This implementation is based on:
 - Python 3.8 or later
 - pip (Python package manager)
 
+### Recommended: Use a Virtual Environment
+
+We strongly recommend using a virtual environment to isolate dependencies:
+
+```bash
+# Create a virtual environment
+python -m venv robotiq_env
+
+# Activate it
+# Linux/macOS:
+source robotiq_env/bin/activate
+# Windows:
+robotiq_env\Scripts\activate
+
+# Your terminal prompt should now show (robotiq_env)
+```
+
 ### Install from source
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/robotiq-2f85-modbus-tcp.git
-cd robotiq-2f85-modbus-tcp
+git clone https://github.com/vvjvanderdrift/robotiq_2f85_modbus_tcp.git
+cd robotiq_2f85_modbus_tcp
 
 # Install the package
 pip install .
 
-# Or install in development mode
+# Or install in development mode (editable install)
 pip install -e .
 ```
 
