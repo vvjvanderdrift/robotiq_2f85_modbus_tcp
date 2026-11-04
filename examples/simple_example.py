@@ -15,7 +15,7 @@ from robotiq_2f85_modbus_tcp import Robotiq2F85Gripper
 
 def main():
     # Replace with your gripper's IP address
-    GRIPPER_IP = "192.168.1.100"
+    GRIPPER_IP = "192.168.1.11"
     
     print("Robotiq 2F-85/2F-140 Modbus-TCP Example")
     print("=" * 50)
